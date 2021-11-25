@@ -73,7 +73,7 @@ export default function Demo({ library }) {
   return (
     <div>
       <Button variant="outlined" onClick={handleClickOpen}>
-        Open dialog
+        Open dialog {library}
       </Button>
       {duration && `Took ${duration}ms`}
       <Dialog
